@@ -1,0 +1,26 @@
+body {
+    background-image: url(imagen\ brillos.jpg);
+}
+.form-box{
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-image: linear-gradient(#bd09b7, #6b4cf5);
+    box-shadow: 5px 5px 3px 1px gray;
+    font-display: white;
+    position: relative;
+}
+h1, p, label {
+    color: white;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#email, #password, select {
+    padding: 0px;
+    width: 100%;
+}
+#button {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+}

@@ -1,10 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <link rel="stylesheet" href="styles.css" />
     <title>Login</title>
 </head>
 <body>
-    
+    <div class="Formulario">
+        <div class="form-box">
+            <form action="registro" method="post">
+                <h1>Login</h1>
+                <br>
+                <div>
+                    <label for="Email">Email</label>
+                </div>
+                <div class="Campo">
+                    <input type="emai" id="email" name="email" required> 
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="Password">Password</label>
+                </div>
+                <div class="campo">
+                    <input type="password" id="password" name="Password" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Genero">Genero</label>
+                    <select>
+                        <option>Hombre</option>
+                        <option>Mujer</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" name="Terminos" id="Terminos">
+                    <label for="Terminos">Acepto los terminos</label>
+                </div>
+                <br>
+                <div>
+                    <input type="button" value="Ingresar" id="button">
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
